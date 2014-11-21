@@ -1,6 +1,13 @@
 //base styles for everything that isn't width specific
 
 /*================================
+GENERAL SETTINGS
+=================================*/
+
+$base-font-family: sans-serif;
+$container_max_width: 1020px;
+
+/*================================
 TYPOGRAPHIC SETTINGS
 =================================*/
 
@@ -54,7 +61,7 @@ html, body {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: $base-font-family;
 }
 
 /*================================
